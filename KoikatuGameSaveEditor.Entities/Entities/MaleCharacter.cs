@@ -14,8 +14,8 @@ namespace KGSE.Entities {
 
         // 0 to 100
         public int Intelligence {
-            get => InternalCharacter.Intelligence ?? 0;
-            set => InternalCharacter.Intelligence = value;
+            get => InternalCharacter.Intelligence2 ?? 0;
+            set => InternalCharacter.Intelligence2 = value;
         }
 
         // 0 to 100
